@@ -7,5 +7,5 @@ export const Container = styled.div`
   align-items: center;
   justify-content: start;
   flex-direction: column;
-  background-color: coral;
+  background-color: #0055197d;
 `;

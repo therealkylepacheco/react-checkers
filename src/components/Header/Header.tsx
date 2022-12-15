@@ -1,5 +1,15 @@
-import { Container } from "./Header.styles";
+import { Container, Title } from "./Header.styles";
 
-export const Header = () => {
-  return <Container>Header</Container>;
+export type HeaderProps = {
+  title: string;
+};
+
+export const Header = (props: HeaderProps) => {
+  const { title } = props;
+
+  return (
+    <Container>
+      <Title>{title}</Title>
+    </Container>
+  );
 };
